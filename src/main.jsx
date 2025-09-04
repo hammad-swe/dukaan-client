@@ -5,12 +5,14 @@ import { BrowserRouter , createBrowserRouter,  createRoutesFromElements, Route, 
 import App from './App.jsx'
 import Hero from './components/Pages/Hero/Hero.jsx'
  import Shop from './components/Pages/Shop/Shop.jsx'
+  import Categories from './components/Pages/Categories/Categories.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route path='/' element={<Hero />} />
       <Route path='/shop' element={<Shop />} />
+      <Route path='/categories' element={<Categories />} />
       {/* <Route path="about" element={<About />} />
       <Route path="projects" element={<Projects />} />
       <Route path="contact" element={<Contact />} />
