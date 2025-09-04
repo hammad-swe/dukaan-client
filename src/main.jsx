@@ -3,10 +3,14 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import { BrowserRouter , createBrowserRouter,  createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
 import App from './App.jsx'
+import Hero from './components/Pages/Hero/Hero.jsx'
+ import Shop from './components/Pages/Shop/Shop.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
+      <Route path='/' element={<Hero />} />
+      <Route path='/shop' element={<Shop />} />
       {/* <Route path="about" element={<About />} />
       <Route path="projects" element={<Projects />} />
       <Route path="contact" element={<Contact />} />
