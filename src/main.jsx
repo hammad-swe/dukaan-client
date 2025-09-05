@@ -3,9 +3,9 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import { BrowserRouter , createBrowserRouter,  createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
 import App from './App.jsx'
-import Hero from './components/Pages/Hero/Hero.jsx'
- import Shop from './components/Pages/Shop/Shop.jsx'
-  import Categories from './components/Pages/Categories/Categories.jsx'
+import Hero from './Pages/Hero/Hero.jsx'
+ import Shop from './Pages/Shop/Shop.jsx'
+  import Categories from './Pages/Categories/Categories.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
