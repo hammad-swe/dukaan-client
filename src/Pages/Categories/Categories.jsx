@@ -1,9 +1,65 @@
 import React from 'react'
+import Card from '../../components/Card'
 
 function Categories() {
   return (
     <>
-    <div className='text-center text-4xl font-bold text-[#00bf63] h-screen flex items-center justify-center animate-pulse'>Coming Soon! </div>
+    <main className="flex">
+    {/* sidebar */}
+   <aside className="w-64 bg-gray-200 p-4">
+    <h2>Categories</h2>
+    </aside>
+    {/* main content */}
+    <section className="flex-1 p-4 w-full bg-red-50">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+    {/* dropdown */}
+    <div className="mb-4">
+    <select id="category" className="w-full p-2 border border-gray-300 rounded">
+    <option value="">Collection</option>
+    <option value="">Latest</option>
+    <option value="">Winter</option>
+    <option value="">Summer</option>
+    <option value=""></option>
+    </select>
+    </div>
+    <div className="mb-4">
+    <select id="category" className="w-full p-2 border border-gray-300 rounded">
+    <option value="">Size</option>
+    <option value="">Size-XL</option>
+    <option value="">Size-L</option>
+    <option value="">Size-M</option>
+    <option value="">Size-S</option>
+    </select>
+    </div>
+    <div className="mb-4">
+    <select id="category" className="w-full p-2 border border-gray-300 rounded">
+    <option value="">Stock</option>
+    <option value="">In Stock</option>
+    <option value="">Out of Stock</option>
+    <option value="">Preorder</option>
+    <option value="">Backorder</option>
+    </select>
+    </div>
+    </div>
+    <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
+    {/* Product Card */}
+    <Card/>
+    <Card/>
+    <Card/>
+    <Card/>
+    <Card/>
+    <Card/>
+    <Card/>
+    <Card/>
+    <Card/>
+    <Card/>
+    <Card/>
+    <Card/>
+
+        </div>
+    </section>
+
+    </main>
    </>
   )
 }
