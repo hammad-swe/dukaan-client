@@ -12,7 +12,7 @@ function Categories() {
 
     </aside>
     {/* main content */}
-    <section className="flex-1 p-4 w-full bg-red-50">
+    <section className="flex-1 p-2 w-full bg-white">
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
     {/* dropdown */}
     <div className="mb-4">

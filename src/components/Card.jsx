@@ -2,18 +2,15 @@ import React from 'react'
 
 function Card({ image, title, price }) {
   return (
-<div>
-    <img
+ <div className="bg-gray-100 rounded-lg p-4 text-center hover:shadow-lg transition duration-300">
+                    <img 
                     src="https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg"
-                    alt="Product 1"
-                    className="w-60 h-40 object-cover mb-4 rounded"
+                    alt="Casual Tshirts"
+                    className="w-full h-40 object-cover mb-4 rounded"
                     />
-                    <h3 className="text-xl font-semibold mb-2">Stylish Jacket</h3>
-                    <p className="text-gray-600 mb-4">$79.99</p>
-                    <button className="bg-[#299fff] text-white px-4 py-2 rounded-lg hover:bg-[#1284e1] transition duration-300">
-                        Add to Cart
-                    </button>
-</div>
+                    <h3 className="text-xl font-semibold mb-2">Casual Tshirts</h3>
+                    <p className="text-gray-600">Comfortable and stylish t-shirts for everyday wear.</p>
+                    </div>
   )
 }
 

@@ -111,7 +111,7 @@ function Hero() {
     </section>
 
     {/* sale section */}
-    <section className="py-12 bg-gray-100">
+    <section className="py-12 bg-green-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-extrabold text-gray-900 mb-4">Limited Time Sale!</h2>
             <p className="text-lg text-gray-700 mb-8">Hurry up! Grab your favorite products at unbeatable prices. Offer valid while stocks last.</p>
@@ -123,27 +123,6 @@ function Hero() {
             </div>
     </section>
 
-    {/* new arrivals section */}
-    <section className="py-12 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-extrabold text-gray-900 mb-8 text-center">New Arrivals</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-                {/* Example Product Card */}
-                <div className="bg-gray-100 rounded-lg p-6 text-center hover:shadow-lg transition duration-300">
-                    <img
-                    src="https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg"
-                    alt="Product 1"
-                    className="w-full h-40 object-cover mb-4 rounded"
-                    />
-                    <h3 className="text-xl font-semibold mb-2">Stylish Jacket</h3>
-                    <p className="text-gray-600 mb-4">$79.99</p>
-                    <button className="bg-[#299fff] text-white px-4 py-2 rounded-lg hover:bg-[#1284e1] transition duration-300">
-                        Add to Cart
-                    </button>
-                </div>
-            </div>
-        </div>
-    </section>
     </>
   )
 }
