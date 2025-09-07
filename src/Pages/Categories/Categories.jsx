@@ -1,13 +1,15 @@
 import React from 'react'
 import Card from '../../components/Card'
+import SideBar from '../../components/SideBar'
 
 function Categories() {
   return (
     <>
     <main className="flex">
     {/* sidebar */}
-   <aside className="w-64 bg-gray-200 p-4">
-    <h2>Categories</h2>
+   <aside className="w-64 bg-gray-200  sticky top-0 h-full scroll-fixed ">
+    <SideBar/>
+
     </aside>
     {/* main content */}
     <section className="flex-1 p-4 w-full bg-red-50">

@@ -6,6 +6,7 @@ import App from './App.jsx'
 import Hero from './Pages/Hero/Hero.jsx'
  import Shop from './Pages/Shop/Shop.jsx'
   import Categories from './Pages/Categories/Categories.jsx'
+  import CartPage from './Pages/Cart/CartPage.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -13,6 +14,7 @@ const router = createBrowserRouter(
       <Route path='/' element={<Hero />} />
       <Route path='/shop' element={<Shop />} />
       <Route path='/categories' element={<Categories />} />
+      <Route path='/cart' element={<CartPage />} />
       {/* <Route path="about" element={<About />} />
       <Route path="projects" element={<Projects />} />
       <Route path="contact" element={<Contact />} />
