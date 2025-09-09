@@ -7,6 +7,8 @@ import Hero from './Pages/Hero/Hero.jsx'
  import Shop from './Pages/Shop/Shop.jsx'
   import Categories from './Pages/Categories/Categories.jsx'
   import CartPage from './Pages/Cart/CartPage.jsx'
+  import Login from './Pages/Login.jsx'
+  import SignUp from './Pages/SignUp.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -15,6 +17,8 @@ const router = createBrowserRouter(
       <Route path='/shop' element={<Shop />} />
       <Route path='/categories' element={<Categories />} />
       <Route path='/cart' element={<CartPage />} />
+      <Route path='/signup' element={<SignUp />} />
+      <Route path='/login' element={<Login />} />
       {/* <Route path="about" element={<About />} />
       <Route path="projects" element={<Projects />} />
       <Route path="contact" element={<Contact />} />
