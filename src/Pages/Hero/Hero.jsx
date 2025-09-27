@@ -1,5 +1,9 @@
 import React, {useEffect, useState} from 'react'
 import { Link } from 'react-router-dom'
+import Tshirt from '../../assets/Tshirt.jpg'
+import Suit from '../../assets/Suits.jpg'
+import Jacket from '../../assets/jacket.jpg'
+import Blazer from '../../assets/Blazer.jpg'
 
 const images = [
     'https://images.pexels.com/photos/6766385/pexels-photo-6766385.jpeg',
@@ -62,36 +66,36 @@ function Hero() {
                 {/* Example Category Card */}
                 <div className="bg-gray-100 rounded-lg p-6 text-center hover:shadow-lg transition duration-300">
                     <img 
-                    src="https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg"
+                    src={Tshirt}
                     alt="Casual Tshirts"
-                    className="w-full h-40 object-cover mb-4 rounded"
+                    className="w-full h-60 object-cover mb-4 rounded"
                     />
                     <h3 className="text-xl font-semibold mb-2">Casual Tshirts</h3>
                     <p className="text-gray-600">Comfortable and stylish t-shirts for everyday wear.</p>
                     </div>
                 <div className="bg-gray-100 rounded-lg p-6 text-center hover:shadow-lg transition duration-300">
                     <img 
-                    src="https://images.pexels.com/photos/6766385/pexels-photo-6766385.jpeg"
+                    src={Suit}
                     alt="Fashion"
-                    className="w-full h-40 object-cover mb-4 rounded"
+                    className="w-full h-60 object-cover mb-4 rounded"
                     />
                     <h3 className="text-xl font-semibold mb-2">Suits</h3>
                     <p className="text-gray-600">Elegant and tailored suits for formal occasions.</p>
                 </div>
                 <div className="bg-gray-100 rounded-lg p-6 text-center hover:shadow-lg transition duration-300">
                     <img 
-                    src="https://images.pexels.com/photos/325876/pexels-photo-325876.jpeg"
+                    src={Jacket}
                     alt="Fashion"
-                    className="w-full h-40 object-cover mb-4 rounded"
+                    className="w-full h-60 object-cover mb-4 rounded"
                     />
                     <h3 className="text-xl font-semibold mb-2">Jackets</h3>
                     <p className="text-gray-600">Stylish jackets for all occasions.</p>
                 </div>
                 <div className="bg-gray-100 rounded-lg p-6 text-center hover:shadow-lg transition duration-300">
                     <img 
-                    src="https://images.pexels.com/photos/325876/pexels-photo-325876.jpeg"
+                    src={Blazer}
                     alt="Fashion"
-                    className="w-full h-40 object-cover mb-4 rounded"
+                    className="w-full h-60 object-cover mb-4 rounded"
                     />
                     <h3 className="text-xl font-semibold mb-2">Blazers</h3>
                     <p className="text-gray-600">Elegant and tailored blazers for formal occasions.</p>

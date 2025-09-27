@@ -20,7 +20,7 @@ function Card({ image,description}) {
                     <img 
                     src={image}
                     alt="Casual Tshirts"
-                    className="w-50 h-50 object-cover mb-4 rounded"
+                    className="w-full h-60 object-cover mb-4 rounded"
                     />
                     <div className='flex justify-between items-center'>
                     <p className="text-gray-600 text-sm">{description}</p>

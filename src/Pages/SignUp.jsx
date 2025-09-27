@@ -14,7 +14,12 @@ function SignUp() {
         <form className="flex flex-col space-y-4 mt-4">
           <input
             type="text"
-            placeholder="Username"
+            placeholder="Name"
+            className="px-4 py-2 border border-gray-300 rounded text-white"
+          />
+          <input
+            type="text"
+            placeholder="Username/Email"
             className="px-4 py-2 border border-gray-300 rounded text-white"
           />
           <input
