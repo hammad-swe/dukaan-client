@@ -28,7 +28,7 @@ function Login() {
         </form>
         <div className="mt-4">
           <p className="text-sm">
-            Don't have an account? <a href="/signup" className="text-blue-500">Sign up</a>
+            Don't have an account? <a href="/auth/signup" className="text-blue-500">Sign up</a>
           </p>
         </div>
         <div className="mt-4">
